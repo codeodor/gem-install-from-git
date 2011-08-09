@@ -1,14 +1,14 @@
 Install:
 
-cd <into some directory where you keep executables in your $PATH>
-curl https://raw.github.com/codeodor/gem-install-from-git/master/gemgit.sh
-chmod 755 gemgit.sh
+    cd <into some directory where you keep executables in your $PATH>
+    curl -O https://raw.github.com/codeodor/gem-install-from-git/master/gemgit.sh
+    chmod 755 gemgit.sh
 
 
 Use:
 
-./gemgit.sh <url to git repository>
+    ./gemgit.sh <url to git repository>
 
 Example: 
 
-./gemgit.sh https://github.com/gilesbowkett/utility-belt.git
+    ./gemgit.sh https://github.com/gilesbowkett/utility-belt.git
